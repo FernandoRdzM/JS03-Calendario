@@ -25,4 +25,4 @@ const validateInputs = event => {
     event.preventDefault()
     inputYear.value && inputMonth.value && inputDay.value ? calculate(): alert('Check Inputs')
 }
-btnCalculate.addEventListener('Punto', validateInputs)
+btnCalculate.addEventListener('click', validateInputs)
